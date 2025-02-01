@@ -1,0 +1,46 @@
+Angular 9 uprade related aspects in comparison with Angular 8 are as below
+1) smaller size bundle
+2) Faster Testing
+3) Improved the build time
+4) Improved Build Errors
+5) Better Debugging
+6) Improved Type Checking
+7) Improved styling and binding
+8) Faster Localization
+other improvements include
+1) Ng update
+2) Youtube player feature added
+3) Google Maps feature added
+4) Improved language service
+5) Typescript 3.7 support
+
+Differences between Angular9 and Angular 19
+1. Ivy Renderer (Introduced in Angular 9)
+Angular 9 introduced the Ivy rendering engine, which improved performance, reduced bundle sizes, and enhanced debugging.
+Ivy made Angular applications more efficient by enabling tree shaking (removing unused code).
+Angular 19 further refines these improvements, making rendering even faster.
+2. TypeScript Version
+Angular 9 supported TypeScript 3.6 and 3.7.
+Angular 19 likely supports newer versions of TypeScript (e.g., TypeScript 4.x), offering better type-checking and modern features.
+3. Strict Mode (Angular 10 and Later)
+Angular 9 had a more permissive compiler.
+From Angular 10 onward (including Angular 19), the strict mode was introduced, which provides better error detection, stricter type-checking, and enhanced predictability.
+4. API Changes
+Angular 9 was a major step in introducing the Ivy engine and other significant features.
+Angular 19 brings incremental improvements, making APIs more developer-friendly with better configuration and support for modern JavaScript practices (like lazy loading, async pipes, etc.).
+5. Performance Enhancements
+Angular 9 introduced the Ivy engine, which boosted performance significantly.
+By Angular 19, many optimizations have been made to rendering times, bundle sizes, and compilation speed, continuing the trend of performance-focused updates.
+6. Deprecated Features and Breaking Changes
+Over time, older features have been deprecated or removed:
+Angular 9 was the last version to support View Engine before Ivy became the default.
+In Angular 19, more legacy features might be deprecated or removed, including certain router configurations or old lifecycle hooks.
+7. Standalone Components (Angular 14 and Beyond)
+Angular 14 introduced standalone components, which allow you to create components that don’t rely on NgModules.
+By Angular 19, this feature would be fully integrated, making component management much simpler.
+8. Improved Forms API
+Angular forms have seen continuous improvements. While Angular 9 fixed some issues, Angular 19 provides a more flexible and powerful API for handling complex form structures.
+9. Changes to ng serve and Build Tools (Angular 18+)
+Angular 18 and 19 started transitioning from the traditional ng serve live-reloading method to using webpack and other modern tools, improving build speeds and performance.
+10. Enhanced CLI and Tooling
+The Angular CLI has undergone significant improvements, particularly in Angular 19, which focuses on faster build times, better configuration options, and integration with modern development tools like Webpack 5.
