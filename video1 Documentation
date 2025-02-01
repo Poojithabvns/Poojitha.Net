@@ -1,0 +1,24 @@
+This is the introduction to learn Angular and Wep API while creating an application named property selling application
+  Angular topics include
+  1) Project Setup
+  2) Basics
+  3) Binding
+  4) Bootstrap
+  5) Components 
+  6) Interaction between components
+  7) Using Service
+  8) Routing
+  9) Template Driven Forms
+  10) Reactive Forms
+  11) Inbuilt Validation
+  12) Custom Validation
+  13) Photo Gallery
+  14) Observable and Resolver
+  15) Save Data to local storage
+  16) pipes
+  17) Lazy Loading
+  18) Authentication
+  19) Upload image
+  20) Deployment on Firebase
+  Finally angular and web api integration through .net core
+  
