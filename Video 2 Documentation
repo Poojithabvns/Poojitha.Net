@@ -1,0 +1,15 @@
+What is Angular - A javascript framework to develop SPA ( Single Page Application)
+Why Angular - it's efficient, fast, and easy to integrate with other platforms. 
+current Angular version is 19.1.2
+I have installed node.js as it is required for the developement environment and also for all the dependencies required for this project
+open power shell and run Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+although the video showed for version angular 9 it was running on command prompt, it did not work for me and had run the next command on powershell
+ran the >npm install -g @angular/cli@latest to install angular
+ng --version to check the version
+ng new property-app to create a new angular workspace
+cd property-app to enter the workspace
+ng serve to compile 
+once ran the local path is shared which after opening can see the basic angular based property-app html page
+ctrl+c to exit the workspace application from running
+to open the code in visual studio run code . and the vs shows the property-app folder and its components in the visual studio application
+
