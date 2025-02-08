@@ -1,0 +1,20 @@
+Import Angular Extensions and mutliple ways to create components
+we have added the following extensions
+Angular extensions 18 - this has a pack of all the angular related requirements like the snippets give a way to auto type the code
+Auto Rename Tag - automatically rename the closing tag
+bracket pari colorizer - is deprecated as the vs code got it inbuilt- just enable in the settings 
+Angular Files - healps to create files, components etc by just right clicking on the folder ( this can also be done from the terminal using ng generate component component_name or ng g c component_name)
+intellisense for css class names in HTML - this provides intellisense for CSS classes
+In this session I have learnt-
+how to create components in different ways from the folder right click and also from terminal commands.
+to see how adding various components can impact the page
+to add the child components into the app.component.html for child component content to diaplay on the page
+components created
+app/property/property-card/
+app/property/property-list/
+app/nav-bar
+in each of these components there is a html, css and ts files
+
+
+
+
