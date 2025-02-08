@@ -1,0 +1,22 @@
+Folder structure for Angular Project -
+Angular 9 used to have test related folders like e2e, karma.conf.js, tsconfig.spec.json but Angular 19 does not have these but can be done through ng commands. it only have tsconfig.spec.json folder
+node modules - have all the packages and libraries that our application depends on
+all the dependencies are defined in package.json file. there will be two types of dependencies on this file dependencies (run time) and devdependencies (developement)
+if a angular project is exported from git then the node modules folder does not show in the folder structure which can be installed using npm install command
+editor.config VS related config file 
+gitignore has the list of folders that are not required to push on git
+angular.json have the project related configuration details / specs like build and development tools provided by the angular cli
+package-lock.json have all the dependency history
+Readme.md for help commands
+ts files are all typescript related config files. with spec is for testing, app is for application specific
+the main folder which has the code for the html page is SRC
+SRC has
+main.ts which is the entry point of the application which tells the engine where our application module exists
+app.component - angular is build using various components where each component has specific functionality. A component might have HTML, CSS, Typescript. HTML can be for view, CSS for style, typescript for adding property and functions to html. 
+app.component acts as the root component under which there can be many child components. app.component is displayed in index.html
+typescript is a open source programming language. it is a superset of java script which means javascript+ additional features is Typescript
+favicon.ico is the symbol that shows on tab of the html page
+
+
+
+
