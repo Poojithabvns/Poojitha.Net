@@ -11,4 +11,4 @@ then compile transcript file using tsc filename.ts-> this creates filename.js js
 install bootstrap to help the application to be more responsive to be suitable for mobile use. this bootstrap should be added in styles section in angular.json file ( "node_modules/bootstrap/dist/css/bootstrap.min.css",)
 property component attributes in type script added , accordingly changed in the main app component . the data binding added with the help of string interpolation {{ }}<h1>{{Property.Name}}</h1><h2>{{Property.Type}}</h2><h3>{{Property.Price}}</h3>
 to add the property image in the card created assets folder in the src path with images folder and saved the image as house_default.jpg. the properties of the image are changed in css file and html file. this path need to added in angular.json under assets section "src/assets",
-
+Also have learnt how to stop the application using Get-NetTCPConnection -LocalPort 4200 take the pid from owning process and stop the process using Stop-Process -Id <PID> -Force. this will stop the application from running and we can rebuild the application using ng serve --open
