@@ -1,3 +1,6 @@
-h1 {
-    font-weight: normal;
-}
+.propImg {
+    width: 105%;   /* Makes the image take up full card width */
+    height: 300px; /* Sets the height for the image */
+    object-fit: cover; /* Ensures the image covers the area nicely */
+  }
+  
