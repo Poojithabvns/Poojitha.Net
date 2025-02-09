@@ -1,0 +1,14 @@
+Component workflow
+Component is a typescript file decorated with component decorator. view, type, component logics can be defined in the typscript file only
+The UI part of the file is in a seperate file called template
+Typescript file is the code behind file can be called as view model while the template can called as the view
+Template and component coomunicate with each other with the help of data binding
+four types of data binding - String interpolation, Property binding, Event Binding, Two way binding
+typescript files interact with services which makes the http calls through API and provides the data back to file which is for the template to manipulate the directives (structural,Attribute)
+Typescript is finally javascript only but to use javascript main problem is it is a strongly type language (the datatype of the return will not be known as it will not be defined)
+Typescript have the interface, class, language service and refactoring and all the typescript converts internally to javascript using transpile as browser cannot understanf typescript. for this we can install npm install typescript first and 
+then compile transcript file using tsc filename.ts-> this creates filename.js jsvascript file (with out type information)
+install bootstrap to help the application to be more responsive to be suitable for mobile use. this bootstrap should be added in styles section in angular.json file ( "node_modules/bootstrap/dist/css/bootstrap.min.css",)
+property component attributes in type script added , accordingly changed in the main app component . the data binding added with the help of string interpolation {{ }}<h1>{{Property.Name}}</h1><h2>{{Property.Type}}</h2><h3>{{Property.Price}}</h3>
+to add the property image in the card created assets folder in the src path with images folder and saved the image as house_default.jpg. the properties of the image are changed in css file and html file. this path need to added in angular.json under assets section "src/assets",
+
